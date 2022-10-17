@@ -1,0 +1,231 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'images/logo.jpg' %}" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <title>Bracu Mongol Tori</title>
+</head>
+<body>
+    <div class="wow">
+
+        <!-- Header Part -->
+
+
+
+        <header>
+            <!--nav bar-->
+              
+            <nav class="navbar navbar-expand-lg navbar-light bg-Pantone">
+              <div class="container">
+                <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'images/Mtlogo.png' %}" width="70px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="mx-auto navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" href="{% url 'index' %}">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'project' %}">Project Details</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'team' %}">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'Achievements' %}">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'outreach' %}">Outreach & Projects</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    </li>
+
+
+                  </ul>
+
+                </div>
+                <a class="navbar-brand d-lg-block d-none" href="https://www.bracu.ac.bd/"><img src="{% static 'images/bracu_logo - White.png' %}" width="70px"></a>
+              </div>
+            </nav>
+        </header>
+            
+
+            <body>
+
+
+              
+              <h1>Sub Team Details</h1>
+              <div class="details">
+        <p> Mongol-Tori is a four-wheeler rover developed for analyzing Martian soil and atmosphere. The
+          rover has six degrees of freedom arm, capable of performing rescue missions, industrial work,
+          autonomous maintenance, and many more. The current functionalities include a PCB board for
+          the entire rover system, inverse kinematics implemented arm, and a GUI for the whole system. 
+          However, the entire project would not have started without the help of our advisor, Dr. Md.
+          Khalilur Rahman, and eleven curious undergraduate students. The team started its journey in
+          2015 with eleven members and a project to develop a rover by students in Bangladesh. With this
+          dream in mind, we continue to move towards their designated path with yearly improvements.
+          Since then, we have participated in University Rover Challenge (URC), International Rover
+          Challenge (IRC), and many other competitions.<br>
+          Mongol-Tori has been a project to implement new ideas on the rover body to improve its
+          functionality and to make it a training ground for students. The students&#39; dedication and hard
+          work make this one of the best in the world, with constant guidance from our advisors and
+          mentors.</p>
+
+
+
+        </div>
+          <div class="timeline">
+              <ul>
+                  <li>
+                      <div class="content">
+                      <div class="time">
+                          <h3>Artificial Intelligence</h3>
+                          
+                      </div>
+                      <img src="{% static 'details/ai.png' %}" alt="" width="300">
+                          <p>Computer Vision is the focus of the Artificial Intelligence Team. This group's responsibilities include data collection, annotation, exploration, visualization, model training, and prediction.</p>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                          <div class="time">
+                              <h3>Rover Autonomy</h3>
+                          </div>
+                          <img src="{% static 'details/auto.png' %}" alt="" width="200">
+                          <p>LThe Rover Autonomy Team uses a variety of sensors and algorithms to design and develop the autonomous navigation system. The system is self-sufficient and capable of GPS navigation, shortest path calculation, detection of AR tags, and obstacle avoidance, among other functions.</p>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                      <div class="time">
+                          <h3>3D Design</h3>
+                      </div>
+                      <img src="{% static 'details/design.png' %}" alt="" width="300">
+                          <p>The Design Team develops 3D CAD and Virtual Simulations for different mechanical parts individually and the total rover as well. These simulations are essential in the decision-making of a new idea before going for the prototype.</p>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                      <div class="time">
+                          <h3>Electronics & Control </h3>
+                      </div>
+                      <img src="{% static 'details/soft.png' %}" alt="" width="300">
+                          <p>The Electronics Team takes care of the electronic system and power unit, which involves everything from PCB design to circuit implementation to wiring testing.
+                            Using efficient control architecture and easy-to-use Graphical User Interface, the Control & Software Team establishes and improves a complete control system for the rover.
+                          </p>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                      <div class="time">
+                          <h3>Scientific Analysis</h3>
+                      </div>
+                      <img src="{% static 'details/science.png' %}" alt="" width="300">
+                          <p>The Scientific Analysis Team is responsible for sensor fusion & onboard scientific analysis. Necessary soil and chemical testings are archived by sensors calibration, integration, and data collection.</p>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                      <div class="time">
+                          <h3>Mechanical</h3>
+                      </div>
+                      &nbsp; &nbsp;&nbsp; &nbsp;
+                          <img src="{% static 'details/mechanical.png' %}" alt="" width="300"> 
+                          <p>The Mechanical Team focuses on the machine and rover structure construction, such as arm and gripper development, wheel suspension, and complete mechanical system evaluation.</p>
+                      </div>
+                  </li>
+                  
+                  
+                
+                
+                
+                  
+      
+                  <div style="clear: both;"></div>
+              </ul>
+          </div>
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+    
+  
+  
+
+    <section class="social">
+      <ul id="floating-share-buttons">
+        <li><a href="https://www.facebook.com/bracumongoltori" class="share-facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCc2N93zxSEi8roo1JZ_YVZg" class="share-youtube"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/bracu-mongol-tori/" class="share-linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+        
+        
+      </ul>
+    </section>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+                                                         
+    <section class="footer">
+     
+    
+    </div>
+    
+    
+    
+    </section>         
+   
+                                                                  <!-- Script -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="{% static 'js/myscript.js' %}"></script>
+  </body>
+</html>
+
+
+
+
+
+

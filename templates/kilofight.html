@@ -1,0 +1,134 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'images/logo.jpg' %}" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <title>Bracu Mongol Tori</title>
+</head>
+<body>
+  <div class="wow">
+
+    <!-- Header Part -->
+    <div class="header">
+     
+        <nav class="navbar navbar-expand-lg navbar-light bg navigation">
+          <div class="container">
+            <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'images/Mtlogo.png' %}" width="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="mx-auto navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="{% url 'index' %}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'project' %}">Project Details</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'team' %}">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'Achievements' %}">Achievements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'gallery' %}">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'outreach' %}">Outreach & Projects</a>
+                </li>
+                          <li class="nav-item">
+                  <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                </li>
+    
+    
+              </ul>
+    
+            </div>
+            <a class="navbar-brand d-lg-block d-none" href="https://www.bracu.ac.bd/"><img src="{% static 'images/bracu_logo - White.png' %}" width="70px"></a>
+          </div>
+        </nav>
+      </nav>
+  
+      
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+<section class="social">
+<ul id="floating-share-buttons">
+<li><a href="https://www.facebook.com/bracumongoltori" class="share-facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UCc2N93zxSEi8roo1JZ_YVZg" class="share-youtube"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+<li><a href="https://www.linkedin.com/company/bracu-mongol-tori/" class="share-linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+
+
+</ul>
+</section>
+    <!--nav bar-->
+      
+    
+
+<section class="Blog">
+    <div class="container">
+        <div class="row">
+          <div class="col-12"><h1 class="Welcome">BRACU KiLO FLiGHT</h1></div>
+        </div>
+       <div class="row">
+        <div class="col-lg-6 col-md-12 text_box">
+          <p class="Kilo">IEEE Robotics and Automation Society BRACU Student Branch Chapter proudly present the BRACU KiLO FLiGHT! Competing in the International Planetary Aerial Systems (IPAS) Challenge 2021. After a month of intense commitment and hard work, the team has successfully submitted the IPAS 2021 Engineering Design Report! With BRAC Onnesha we conquered space, won the space race to the Moon with BRACU Chondrobot , conquered the land of Mars with BRACU Mongol Tori, and explored the depths with BRACU Duburi. It's now time for BRAC University to take to the skies of Mars with BRACU KiLO FLiGHT !!! An Unmanned Aerial System (UAS) to explore Mars! The main ambition of the team is to create a UAS that can perform specific functions and tasks, such as assisting astronauts and conducting specific scientific analyses on Mars. The architecture of the UAV is divided into six functional sub-teams. The UAV is primarily designed to conduct atmospheric and environmental analyses on Mars, as well as perform some specific tasks in accordance with IPAS 2021. Thanks to Mars Society South Asia for arranging such a competition.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 container1">
+          <img src="{% static 'images/kilofight2.jpg' %}" width="102%" alt="kilofight2">
+        </div>
+      </div>
+      
+      <p class="Kilo">The Naming of BRACU Kilo Flight: To reflect the history of independence of our beloved motherland on an international stage, we named our UAV ‘BRACU Kilo Flight’ after the name of the first flying unit of 1971. During the Bangladesh Liberation War in 1971, the Mukti Bahini combat aviation formation was given the code name Kilo Flight. It included a DHC-3 Otter plane and an Alouette III aircraft, each equipped with rocket pods and machine guns for hit-and-run attacks on Pakistani targets, as well as a DC-3 Dakota for logistics missions. In September 1971, the unit was established by 9 Bengali pilots and 58 ex-PAF staff under the command of Group Captain A. K. Khandker. Squadron Leader Sultan Mahmud led the formation. On December 4, 1971, this unit was the first to unleash airstrikes against Pakistani targets in occupied Bangladesh. These propeller-driven aircraft were supplied by Indian authorities, but they were sluggish and no match for the Pakistan Air Force's F-86 Sabre aircraft. The BAF and IAF agreed that the first missions would be conducted at night. The planes would fly low to prevent radar detection, then rise to strike their targets before returning to base. Bengali pilots sharpened their skills in the dangerous job of night flight and shooting, while the Bengali crew maintained the planes functional throughout the day. Intense night flying and instrumental navigation training took place under the command of Squadron Leader Sultan Mahmud, aided by Indian instructors. The preparation went unnoticed because Dimapur was a remote location surrounded by thick forest. Pilots would take off after midnight, maneuver to their destinations, visually spot their aim in the dark, practice diving, low angle approach, striking the target with rockets and machine gun fire, and then fly out. The formation was considered combat-ready after a month of preparation. Because of the importance of the Bangladesh Liberation War, the IAF offered Bengali pilots the privilege of becoming the first to attack Pakistan from the air. The helicopter, piloted by Sqn. Ldr Sultan Mahmud and Flight Lt. Badrul Alam and flying from Teliamura, was intended to hit Narayangang. On December 2, 1971, the first mission was launched. The Kilo Flight pilots were flown to Jorhat for final briefings on December 1, 1971, before being assembled at Kilashhar. Around 9:00 p.m., the Otter, piloted by Flt. Lt. Shamsul Alam and co-piloted by Captain Akram, took off from Kailashahar Airport. Captain Akram navigated the plane using a compass. To prevent Radar detection and maneuver through the mist, the otter flew lower and lower to the ground, and after an hour made it to Chittagong. The city was in complete darkness, with only the lights of ships anchored at the port visible. The aircraft made a shallow dive to strike two fuel tanks with two rockets after turning southeast and landing at Chittagong Airport. After that, it launched another missile assault on the warehouses, which was met with anti-aircraft fire. The otter made a second attack by firing missiles at a ship on its way out. Then flew north to Kumbhirgram Airport. The otter pilots returned the next day to Kilashahar. Between December 4 and December 16, 1971, the unit flew 90 sorties and 40 combat missions. Kilo Flight was the nascent Bangladesh Air Force's core in independent Bangladesh. We proudly hold this name in our hearts to commemorate their triumph and with a hope of success in our journey to Mars.</p>
+      
+      <div class="col-lg-6 col-md-12 container1 " >
+        <img src="{% static 'images/kilofight3.jpg' %}" width="200%" alt="kilofight2">
+      </div>
+    </div>
+        </div>
+        
+</div>
+
+
+    
+    </section>
+
+
+
+    <div class="black">
+      <div class="container">
+        <div class="footer">
+          <p>Copyright &copy; 2023 BRACU Mongol Tori Developed by Mongol Tori Website Team</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/myscript.js' %}"></script>
+
+  </body>
